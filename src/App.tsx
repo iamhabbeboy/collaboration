@@ -1,5 +1,7 @@
-import Products from './components/Products';
+//import Products from './components/Products';
+import CartItem from './components/CartItem';
 import "./App.css"
+
 
 function App() {
   // const [posts, setPosts] = useState<IPost[]>([]);
@@ -18,7 +20,7 @@ function App() {
   // }, [posts])
   return (
       <div className='mx-auto mt-10 rounded-md container p-10'> 
-      <Products />
+      <CartItem />
         {/* <h1 className='text-indigo-400 text-2xl'> Posts </h1>
         <div className='mt-5'>
           {posts.map((post, key) => (
