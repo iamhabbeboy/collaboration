@@ -23,6 +23,7 @@ function App() {
   return (
       <div className='container mx-auto mt-10 p-10 rounded-md'> 
       <CartItems/>
+      
         {/* <h1 className='text-indigo-400 text-2xl'> Posts </h1>
         <div className='mt-5'>
           {posts.map((post, key) => (
