@@ -31,13 +31,11 @@
 
 // export default App
 
-// import Products from './components/Products';
-// import Header from './components/Header';
-// import Hero from './components/Hero'
-// import Categories from './components/Categories';
-// import FlashSale from './components/FlashSale'
+import Header from './components/Header';
+import Hero from './components/Hero'
+import Categories from './components/Categories';
+import FlashSale from './components/FlashSale'
 import "./App.css"
-import CartItems from "./components/CartItems"
 
 
 
@@ -68,11 +66,11 @@ function App() {
           <Post {...post} key={key} />
           ))} 
         </div> */}
-        <CartItems/>
-        {/* <Header/>
+        
+        <Header/>
         <Hero/>
         <Categories/>
-        <FlashSale/> */}
+        <FlashSale/>
         
         
       </div>
