@@ -1,6 +1,8 @@
 //import Products from './components/Products';
-import CartItem from './components/CartItem';
+//import CartItem from './components/CartItem';
 import "./App.css"
+import CartItems from "./components/CartItems"
+
 
 
 function App() {
@@ -19,13 +21,13 @@ function App() {
   //   }
   // }, [posts])
   return (
-      <div className='mx-auto mt-10 rounded-md container p-10'> 
-      <CartItem />
+      <div className='container mx-auto mt-10 p-10 rounded-md'> 
+      <CartItems/>
         {/* <h1 className='text-indigo-400 text-2xl'> Posts </h1>
         <div className='mt-5'>
           {posts.map((post, key) => (
           <Post {...post} key={key} />
-          ))}
+          ))} 
         </div> */}
       </div>
   )
