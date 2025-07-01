@@ -1,7 +1,9 @@
+import CartItems from "../components/CartItems"
+
 const Cart = () => {
     return (
         <section>
-            <h1> Cart page</h1>
+            <CartItems/>
         </section>
     )
 }
