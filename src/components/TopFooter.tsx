@@ -1,8 +1,12 @@
 function TopFooter(){
     return(
-        <div className="bg-green-300">
-            <h1 className="text-3xl text-center my-5 py-32">"Let's Shop Beyound Boundaries"</h1>
-        </div>
+        
+      <div className="bg-gray-900 text-white pt-10 pb-6 px-4">
+      <div className="text-center mb-8">
+        <h2 className="text-xl font-semibold italic">“Let’s Shop Beyond Boundaries”</h2>
+      </div>
+      </div>
+
         
     )
 }

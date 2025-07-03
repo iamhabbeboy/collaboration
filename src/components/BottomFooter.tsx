@@ -1,6 +1,18 @@
 function BottomFooter(){
     return(
-        <h2>Let Shop Beyound Boundary</h2>
+        <div>
+            <div>
+                <div>one</div>
+                <div>two</div>
+                <div>three</div>
+                <div>four</div>
+                <div>Five</div>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+       
     )
 }
 

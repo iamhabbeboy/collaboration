@@ -37,18 +37,18 @@ function FlashSale(){
           </div>
 
             <div className="arrows">
-                    <span className='bg-black text-white mr-3 p-2 rounded-md'>
-                      <a href="http://"><FontAwesomeIcon icon={faArrowLeft} className='w-8 '/></a>
+                    <span className='bg-white border-1 text-black mr-3 p-2 rounded shadow'  >
+                      <a href="http://"><FontAwesomeIcon icon={faArrowLeft} className='w-8 no-underline'/></a>
                       </span>
                     <span className='bg-black text-white p-2 rounded-md'>
-                      <a href="http://"><FontAwesomeIcon icon={faArrowRight} className='w-15 text-lg'/></a>
+                      <a href="http://"><FontAwesomeIcon icon={faArrowRight} className='w-15 text-lg no-underline'/></a>
                     </span>
             </div>
        </div>
        <FlashProdcts/>
        </>
 
-
+ 
     )
 }
 

@@ -7,21 +7,22 @@ const FlashProduct:React.FC<IFlashSale> = ({image,description,price,oldPrice,num
 
 return (
     
-    <div className="border-b flex flex-col text-center w-100 bg-red py-5">
-        <div className={`bg-gray-300 w-[100%] h-[300px] h-96 mb-4 w-96 mr-3 round`} style={{backgroundImage: `url('${image}')`, backgroundSize: "cover"}}>
+    <div className="flex flex-col text-center w-100  border  rounded-xl">
+        <div className={`bg-gray-300 w-[100%] h-[300px] h-96 mb-4 w-96 mr-3 rounded-t-xl`} 
+        style={{backgroundImage: `url('${image}')`, backgroundSize: "cover"}}>
         </div>
-        {/* <FontAwesomeIcon icon={faHeart} className='tuser font-2xl relative p-3 w-8 h-1 bg-red-900 font-white-100 rounded-full left-5 bottom-20'/> */}
+        <FontAwesomeIcon icon={faHeart} className='font-3xl relative p-7 w-5 h-2 text-grey-900 rounded-full bottom-75 left-80'/> 
         
         
-        <p className="text-2xl text-center font-medium capitalize text-justify">{description}</p>   
+        <p className="text-lg text-center font-bold capitalize text-justify px-3">{description}</p>   
         
         <span className="flex">
-            <h2 className="text-3xl text-capitalize font-bold mb-4"> {price}</h2>
-            <h3 className="text-2xl ml-2 text-red-300 font-bold line-through">Rp{oldPrice}</h3>
+            <h2 className="text-2xl text-capitalize font-bold mb-4 px-3"> {price}</h2>
+            <h3 className="text-xl ml-2 text-red-300 font-bold line-through">Rp{oldPrice}</h3>
         </span> 
         <span className="flex text-grey-300 text-lg">
-            <h3 className="flex text-grey-300 text-2xl font-bold mr-2">{numberRemain}</h3>/
-            <h3 className="flex text-gray-700 text-2xl font-bold ">{totalNumber}</h3>
+            <h3 className="flex text-grey-300 text-2xl font-bold mr-2 px-3">{numberRemain}</h3>/
+            <h3 className="flex text-gray-700 text-2xl font-bold px-3">{totalNumber}</h3>
         </span>
     </div>
 );

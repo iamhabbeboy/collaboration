@@ -5,7 +5,7 @@ import FlashProduct from './FlashProduct';
 function FlashProducts(){
     const fProducts: [] =[
         {
-        image: "./images/ghood.jpg",
+        image: "./images/greshirt.jpg",
         description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
         price:2090.00,
         oldPrice:30000.00,
@@ -13,7 +13,7 @@ function FlashProducts(){
         totalNumber:10
     },
   {
-        image: "./images/grey-hat.jpg",
+        image: "./images/grsk.jpg",
         description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
         price:20.00,
         oldPrice:3067,
@@ -38,8 +38,8 @@ function FlashProducts(){
     }, ]
 
     return(
-        <section>
-          <div className='flex justify-between'>
+        <section className=''>
+          <div className='flex justify-around'>
             { 
                 fProducts.map((fproduct,key) => (
                     <FlashProduct {...fproduct} key={key}/>
