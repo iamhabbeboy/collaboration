@@ -11,7 +11,7 @@ export default function SettingTopbar() {
         placeholder="Search"
         className="p-2 w-3/4 border-gray-300 border rounded"
       />
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 ml-10 w-1/3">
         <span className="w-4 h-4 bg-white rounded-full" > <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-gray-600" /></span>
         <span className="w-4 h-4 bg-white rounded-full" > <FontAwesomeIcon icon={faBell} className="mr-2 text-gray-600" /></span>
         <div className="flex items-center gap-2">

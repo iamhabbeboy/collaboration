@@ -13,9 +13,10 @@ import {
 
 export default function Sidebar() {
   return (
-    <aside className="pl-5 pr-2 w-64 leading-relaxed bg-gray-100 shadow-md space-y-6">
-        <div className="p-0 m-0 border-0">
-      <div className="mt-0 mb-0 h-12 bg-white border-0 rounded-t-lg border-b border-gray-300"><h1 className="font-bold text-2xl text-gray-600 text-center">WAYLINE</h1></div>
+    <div className="pl-3 pr-1">
+    <aside className="pl-3 pr-0 w-64 leading-relaxed bg-white rounded-t-lg shadow-md space-y-6">
+        <div className="p-0 m-0">
+      <div className="mt-0 mb-0 h-12 bg-white border-0 rounded-t-lg border-b border-gray-300"><h1 className="pt-2 text-2xl text-gray-600 text-center -font-bold">WAYLINE</h1></div>
       <nav className="px-5 pl-10 text-sm font-medium text-gray-700 bg-white space-y-2">
         <br/>
         <a href="#" className="block mb-5 mt-5 hover:text-blue-600"><FontAwesomeIcon icon={faTachometerAlt} className="mr-2 text-gray-600" />Dashboard</a>
@@ -32,5 +33,6 @@ export default function Sidebar() {
         <a href="#" className="block mb-5 text-xs text-gray-500"><FontAwesomeIcon icon={faSignOutAlt} className="mr-2 text-gray-600" />Logout</a>
       </div>
     </aside>
+    </div>
   );
 }

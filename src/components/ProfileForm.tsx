@@ -8,7 +8,7 @@ const ProfileForm: React.FC<ProfileProps> = ({}) => {
           <h2 className="text-lg font-bold">Profile Information</h2>
           <p className="text-sm text-gray-500">Leslie Alexander</p>
         </div>
-        <button className="px-4 py-2 text-white bg-gray-600 rounded">Edit</button>
+        <button className="px-4 py-0 h-10 text-white bg-gray-600 rounded">Edit</button>
       </div>
 
       <h3 className="mb-2 font-semibold">Personal Details</h3>
