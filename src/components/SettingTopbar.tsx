@@ -16,7 +16,7 @@ export default function SettingTopbar() {
         <span className="w-4 h-4 bg-white rounded-full" > <FontAwesomeIcon icon={faBell} className="mr-2 text-gray-600" /></span>
         <div className="flex items-center gap-2">
           <img src="https://i.pravatar.cc/40" className="w-8 h-8 rounded-full" />
-          <span className="text-sm font-semibold">Leslie Alexander</span>
+          <span className="text-sm font-semibold">Ola Wale</span>
         </div>
       </div>
     </header>
