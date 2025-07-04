@@ -36,6 +36,10 @@ import Hero from './components/Hero'
 import Categories from './components/Categories';
 import FlashSale from './components/FlashSale'
 import "./App.css"
+// import ForYou from './components/ForYouTop';
+import TodayProduct from './components/TodayProduct';
+import BestSelling from './components/BestSelling';
+import Footer from './components/Footer';
 
 
 
@@ -71,8 +75,9 @@ function App() {
         <Hero/>
         <Categories/>
         <FlashSale/>
-        
-        
+        <TodayProduct/>
+        <BestSelling/>
+        <Footer/>
       </div>
   )
 }

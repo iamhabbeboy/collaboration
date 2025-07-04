@@ -8,7 +8,9 @@ import {
 } from "react-router";
 import Cart from './pages/Cart.tsx';
 import SignIn from './pages/SignIn.tsx';
+
 import Profile from './pages/Profile.tsx';
+
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,7 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     Component: Profile
+
   },
 ]);
 
