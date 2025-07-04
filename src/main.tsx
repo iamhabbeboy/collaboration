@@ -10,6 +10,7 @@ import Cart from './pages/Cart.tsx';
 import SignIn from './pages/SignIn.tsx';
 
 import Profile from './pages/Profile.tsx';
+import Checkout from './pages/Checkout/Checkout.tsx';
 
 
 const router = createBrowserRouter([
@@ -28,7 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     Component: Profile
-
+  },
+  {
+    path: "/checkout",
+    Component: Checkout
   },
 ]);
 

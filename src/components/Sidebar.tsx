@@ -13,7 +13,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <aside className="pl-5 w-64 leading-relaxed bg-gray-100 shadow-md space-y-6">
+    <aside className="pl-5 pr-2 w-64 leading-relaxed bg-gray-100 shadow-md space-y-6">
         <div className="p-0 m-0 border-0">
       <div className="mt-0 mb-0 h-12 bg-white border-0 rounded-t-lg border-b border-gray-300"><h1 className="font-bold text-2xl text-gray-600 text-center">WAYLINE</h1></div>
       <nav className="px-5 pl-10 text-sm font-medium text-gray-700 bg-white space-y-2">
@@ -27,7 +27,7 @@ export default function Sidebar() {
         <a href="#" className="block mb-5 text-blue-600 font-semibold"><FontAwesomeIcon icon={faCog} className="mr-2 text-gray-600" />Settings</a>
       </nav>
       </div>
-      <div className="mt-auto p-5 text-sm text-gray-500 bg-white space-y-2">
+      <div className="mt-55 p-5 text-sm text-gray-500 bg-white space-y-2">
         <a href="#" className="block mb-5 text-gray-500 \text-xs"><FontAwesomeIcon icon={faQuestionCircle} className="mr-2 text-gray-600" />Get Help</a>
         <a href="#" className="block mb-5 text-xs text-gray-500"><FontAwesomeIcon icon={faSignOutAlt} className="mr-2 text-gray-600" />Logout</a>
       </div>
