@@ -3,18 +3,18 @@
 
 function Footer(){
     return(
-        <section className="bg-gray-900 text-white p-6">
+        <section className="bg-gray-900 text-white p-6 mt-20">
             <div className="text-center mb-6">
-                <h2 className="italic text-lg">“Let’s Shop Beyond Boundaries”</h2>
+                <h1 className="italic text-3xl ">“Let’s Shop Beyond Boundaries”</h1>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-sm max-w-6xl mx-auto">
+            <div className="flex justify-around text-sm  mx-auto">
                 <div>
-                     <h3 className="font-bold mb-2">BeliBeli.com</h3>
+                     <h2 className="font-bold text-lg mb-2">BeliBeli.com</h2>
                       <p className="mb-4">"Let's Shop Beyond Boundaries"</p>
                 </div>
                 <div>
-                     <h4 className="font-semibold mb-2">BeliBeli</h4>
+                     <h2 className="font-bold text-lg mb-2">BeliBeli</h2>
                         <ul className="space-y-1 text-gray-400">
                             <li>About BeliBeli</li>
                             <li>Career</li>
@@ -23,7 +23,7 @@ function Footer(){
                         </ul>
                 </div>
                 <div>
-                    <h4 className="font-semibold mb-2">Buy</h4>
+                    <h2 className="font-bold text-lg mb-2">Buy</h2>
                     <ul className="space-y-1 text-gray-400">
                         <li>Bill & Top Up</li>
                         <li>BeliBeli COD</li>
@@ -32,7 +32,7 @@ function Footer(){
                     </ul>
                 </div>
                 <div>
-                    <h4 className="font-semibold mb-2">Sell</h4>
+                    <h2 className="font-bold text-lg mb-2">Sell</h2>
                     <ul className="space-y-1 text-gray-400">
                         <li>Seller Education Center</li>
                         <li>Brand Index</li>
@@ -40,7 +40,7 @@ function Footer(){
                     </ul>
                 </div>
                 <div>
-                     <h4 className="font-semibold mb-2">Guide and Help</h4>
+                     <h2 className="font-bold text-lg mb-2">Guide and Help</h2>
                         <ul className="space-y-1 text-gray-400">
                             <li>BeliBeli Care</li>
                             <li>Term and Condition</li>

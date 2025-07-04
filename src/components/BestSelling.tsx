@@ -7,36 +7,36 @@ function BestSelling(){
             logo: "./images/ghood.jpg",
             name: "Nike sea mall",
             slogan: "just do it bro!",
-             image1:"./images/ghood.jpg",
-             image2:"./images/ghood.jpg",
-             image3:"./images/ghood.jpg",
+             image1:"./images/greycap.jpeg",
+             image2:"./images/grsk.jpg",
+             image3:"./images/grshoe.jpeg",
              price:"300.00"
         },
          {
             logo: "./images/ghood.jpg",
             name: "Barudka Disaster mall",
             slogan: "unleash your fashion!",
-             image1:"./images/ghood.jpg",
-             image2:"./images/ghood.jpg",
-             image3:"./images/ghood.jpg",
+             image1:"./images/shirtgrey.jpg",
+             image2:"./images/shoegrey.jpg",
+             image3:"./images/watchgrey.jpg",
              price:400.00
         },
          {
             logo: "./images/ghood.jpg",
             name: "Galaxy galleria mall",
             slogan: "be extra ordinary!",
-             image1:"./images/ghood.jpg",
-             image2:"./images/ghood.jpg",
-             image3:"./images/ghood.jpg",
+             image1:"./images/shirtgrey.jpg",
+             image2:"./images/shoegrey.jpg",
+             image3:"./images/watchgrey.jpg",
              price:500.00
         },
          {
             logo: "./images/ghood.jpg",
             name: "Nike sea mall",
             slogan: "chic, bold, confident!",
-             image1:"./images/ghood.jpg",
-             image2:"./images/ghood.jpg",
-             image3:"./images/ghood.jpg",
+             image1:"./images/shoegrey.jpg",
+             image2:"./images/capgrey.jpg",
+             image3:"./images/greshirt.jpg",
              price:700.00
         },
 

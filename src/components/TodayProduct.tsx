@@ -4,7 +4,7 @@ function TodayProduct(){
     
         const productsToday: [] =[
             {
-            image: "./images/ghood.jpg",
+            image: "./images/shoegrey.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,
@@ -12,7 +12,7 @@ function TodayProduct(){
             oldPrice:40000,
         },
               {
-            image: "./images/ghood.jpg",
+            image: "./images/greshirt.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,
@@ -20,7 +20,7 @@ function TodayProduct(){
             oldPrice:40000,
         },
               {
-            image: "./images/ghood.jpg",
+            image: "./images/hooddgrey.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,
@@ -28,7 +28,7 @@ function TodayProduct(){
             oldPrice:40000,
         },
               {
-            image: "./images/ghood.jpg",
+            image: "./images/capgrey.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,
@@ -36,7 +36,7 @@ function TodayProduct(){
             oldPrice:40000,
         },
               {
-            image: "./images/ghood.jpg",
+            image: "./images/grsk.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,
@@ -44,14 +44,14 @@ function TodayProduct(){
             oldPrice:40000,
         },
               {
-            image: "./images/ghood.jpg",
+            image: "./images/greyhiighheel.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,
             price:30000.00,
             oldPrice:40000,
         },   {
-            image: "./images/ghood.jpg",
+            image: "./images/grsk.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,
@@ -59,7 +59,7 @@ function TodayProduct(){
             oldPrice:40000,
         },
            {
-            image: "./images/ghood.jpg",
+            image: "./images/greybag.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
             ratings:5.9,
             numberSold:2090.00,

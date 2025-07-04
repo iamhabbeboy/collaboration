@@ -7,11 +7,12 @@ const FlashProduct:React.FC<IFlashSale> = ({image,description,price,oldPrice,num
 
 return (
     
-    <div className="flex flex-col text-center w-100  border  rounded-xl">
+    <div className="flex flex-col text-center w-100 bg-red    rounded-xl shadow-md">
         <div className={`bg-gray-300 w-[100%] h-[300px] h-96 mb-4 w-96 mr-3 rounded-t-xl`} 
         style={{backgroundImage: `url('${image}')`, backgroundSize: "cover"}}>
+            <FontAwesomeIcon icon={faHeart} className='text-2xl relative p-2 w-8 h-12 bg-red-100 text-grey rounded-full left-35 top-3'/>
         </div>
-        <FontAwesomeIcon icon={faHeart} className='font-3xl relative p-7 w-5 h-2 text-grey-900 rounded-full bottom-75 left-80'/> 
+        {/*  */}
         
         
         <p className="text-lg text-center font-bold capitalize text-justify px-3">{description}</p>   
