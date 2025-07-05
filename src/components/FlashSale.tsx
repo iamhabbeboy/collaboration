@@ -1,7 +1,9 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBolt,faArrowLeft,faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import FlashProdcts from './FlashProducts'
 function FlashSale(){
     return(
+      <>
       <div className="p-4 flex justify-between bg=blue-400">
 
         <div className='flex gap-4 align-between'>
@@ -43,6 +45,9 @@ function FlashSale(){
                     </span>
             </div>
        </div>
+       <FlashProdcts/>
+       </>
+
 
     )
 }
