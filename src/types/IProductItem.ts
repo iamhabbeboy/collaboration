@@ -1,4 +1,4 @@
-interface ProductItem{
-  image: string;
-  price: string;
-}
+// interface ProductItem{
+//   image: string;
+//   price: string;
+// }

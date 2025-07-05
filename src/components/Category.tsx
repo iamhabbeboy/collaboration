@@ -1,7 +1,7 @@
-import type { ICategory } from "../types/ICategory"
+// import type { ICategory } from "../types/ICategory"
 
 
-const Category:React.FC<ICategory> = ({name,image}) =>{
+const Category:React.FC<any> = ({name,image}) =>{
 
 return (
     <div className="border-b border-gray-200 py-5">

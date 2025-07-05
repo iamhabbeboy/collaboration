@@ -1,10 +1,10 @@
 import ForYouTop from "./ForYouTop" 
 function ForYou(){
-    const todaysProduct = [
-        {
-            image
-        }
-    ]
+    // const todaysProduct = [
+    //     {
+    //         image
+    //     }
+    // ]
     return(
         <div>
             <ForYouTop/>

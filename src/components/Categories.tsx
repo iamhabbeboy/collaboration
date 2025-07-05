@@ -4,7 +4,7 @@ import Category from "./Category"
 const Categories = () =>{
 
     // const categories: ICategories[] =[
-      const categories: [] =[
+      const categories =[
         {
         name: "T-Shirt",
         image: "./images/btshitrt.jpg",

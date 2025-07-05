@@ -1,8 +1,8 @@
-import BestBag from './BestBag'
+
 import BestSellings from './BestSellings'
 
 function BestSelling(){
-        const storeData:[]=[
+        const storeData =[
          {
             logo: "./images/ghood.jpg",
             name: "Nike sea mall",
@@ -45,7 +45,6 @@ function BestSelling(){
     <section className="mt-5">
         <h1 className="text-center text-5xl font-bold py-7">Best Selling Store</h1>
         <div className="flex flex-row">
-            <BestBag/>
             <div className="w-[70%]">
                 <div className='grid grid-cols-2 grid-rows-2 gap-6 '>
                 

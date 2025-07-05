@@ -1,7 +1,7 @@
 
-import type { IStore } from "../types/IStore"
+// import type { IStore } from "../types/IStore"
 
-const BestSellings:React.FC<IStore>=({logo,name,slogan,image1,image2,image3,price})=>{
+const BestSellings:React.FC<any>=({name,slogan,image1,image2,image3,price})=>{
     return(
         
             

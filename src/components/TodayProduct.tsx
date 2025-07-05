@@ -2,7 +2,7 @@ import TodaysProducts from "./TodaysProducts"
 
 function TodayProduct(){
     
-        const productsToday: [] =[
+        const productsToday =[
             {
             image: "./images/ghood.jpg",
             description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",

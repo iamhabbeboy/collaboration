@@ -3,7 +3,7 @@ import FlashProduct from './FlashProduct';
 
 
 function FlashProducts(){
-    const fProducts: [] =[
+    const fProducts =[
         {
         image: "./images/ghood.jpg",
         description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",

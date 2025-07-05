@@ -1,9 +1,9 @@
-import type {IFlashSale} from "../types/IFlashSale"
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faHeart} from '@fortawesome/free-solid-svg-icons';
+// import type {IFlashSale} from "../types/IFlashSale"
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+// import {faHeart} from '@fortawesome/free-solid-svg-icons';
 
 
-const FlashProduct:React.FC<IFlashSale> = ({image,description,price,oldPrice,numberRemain,totalNumber}) =>{
+const FlashProduct:React.FC<any> = ({image,description,price,oldPrice,numberRemain,totalNumber}) =>{
 
 return (
     

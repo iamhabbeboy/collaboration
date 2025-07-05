@@ -1,9 +1,9 @@
-import type { IToday } from '../types/IToday'
+// import type { IToday } from '../types/IToday'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faHeart} from '@fortawesome/free-solid-svg-icons';
 import {faStar} from '@fortawesome/free-solid-svg-icons';
 
-const TodaysProducts:React.FC<IToday> = ({image,description,ratings,numberSold,price,oldPrice}) =>{
+const TodaysProducts:React.FC<any> = ({image,description,ratings,numberSold,price,oldPrice}) =>{
     return(
     <div className="border-b border-gray-200 rounded-3xl shadow-md">
     <div className={`bg-gray-300 h-[250px] px-8  w-[100%] mx-auto rounded-t-3xl`} style={{backgroundImage: `url('${image}')`, backgroundSize: "cover"}}>

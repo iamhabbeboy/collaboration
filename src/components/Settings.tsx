@@ -5,7 +5,7 @@ export default function Settings() {
   return (
     <div className="flex gap-6">
       <SubMenu />
-      <ProfileForm />
+      <ProfileForm title={''} price={''} image={''} />
     </div>
   );
 }
