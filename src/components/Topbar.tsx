@@ -13,10 +13,10 @@ function Topbar() {
 
         <div className='flex align-between gap-5'>
               <div className="space-x-3 ">
-                    <a href="#" className="hover:underline text-gray-400 text-lg  font-bold font-hairline tracking-wide">Mitra BeliBeli</a>
-                    <a href="#" className="hover:underline text-gray-400 text-lg  font-bold font-hairline tracking-wide">About BeliBeli</a>
-                    <a href="#" className="hover:underline text-gray-400 text-lg  font-bold font-hairline tracking-wide">Promo</a>
-                    <a href="#" className="hover:underline text-gray-400 text-lg  font-bold font-hairline tracking-wide">Beli Cano</a>
+                    <a href="#" className="hover:underline text-gray-400 text-md  font-bold font-hairline tracking-wide">Mitra BeliBeli</a>
+                    <a href="#" className="hover:underline text-gray-400 text-md  font-bold font-hairline tracking-wide">About BeliBeli</a>
+                    <a href="#" className="hover:underline text-gray-400 text-md  font-bold font-hairline tracking-wide">Promo</a>
+                    <a href="#" className="hover:underline text-gray-400 text-md  font-bold font-hairline tracking-wide">Beli Cano</a>
                 </div>
                  <div className='tbsl'>
                         <a href="http://" className='signin text-xl font-bold pr-5'>signUp</a> 

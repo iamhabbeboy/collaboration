@@ -5,6 +5,8 @@ export interface IStore{
     image1:string;
     image2:string;
     image3:string;
-    price:string;
+    price1:string;
+    price2:string;
+    price3:string;
    
 }
