@@ -4,30 +4,33 @@ import Category from "./Category"
 const Categories = () =>{
 
     // const categories: ICategories[] =[
-      const categories =[
+      const categories: [] =[
         {
         name: "T-Shirt",
         image: "./images/btshitrt.jpg",
     }, {
         name: "Jacket",
         image: "./images/bjack.jpg",
-    }, {
-        name: "Skirt",
-        image: "images/bjack.jpg",
-    }, 
+    },
      {
         name: "Jean",
          image: "images/32.jpg",
+    },
+     {
+        name: "Skirt",
+        image: "images/bjack.jpg",
     },{
         name: "Bags",
          image: "images/bbag.jpg",
     },{
-        name: "Shoes",
-        image:"images/bshoe.jpg",
-    },{
         name: "Watches",
          image: "images/bwatches.jpg",
-    },{
+    }
+    ,{
+        name: "Shoes",
+        image:"images/bshoe.jpg",
+    }
+    ,{
         name: "Caps",
          image: "images/bcap.jpg"
     },]
@@ -41,7 +44,9 @@ const Categories = () =>{
             </div>
             {/* <h1>Product</h1> */}
             {/* <div className='w-[10%] rounded-full border-1'> */}
-                <a href="http://" className="rounded-full"><img src="./images/4dots.png" className="w-2/5  mt-13 ml-5"/></a>
+                <a href="http://" className="rounded-full border-gray-300 w-[80px] h-[80px]  mt-10 ">
+                      <img src="./images/4dots.png" className="mt-4 ml-3 w-[60px] h-[60px]  border-gray-300 "/>
+                </a>
             {/* </div> */}
             
         </section>
