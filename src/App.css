@@ -1,33 +1,35 @@
 @import "tailwindcss";
-/* 
-*{
+* {
     box-sizing: border-box;
 }
 
-body
-{
-    padding: 30px 50px;
-     background-color: grey;
-}
 
-.container
+
+ /* .container
 {
     max-width: 100%;
     margin: 0 auto;
     height: auto;
-    background-color: #fff;
-}
+    background-color: #fff; 
+}  */
 
-.tuser
+
+
+/* .tuser
 {
     font-size:30px;
     color: rgb(180, 167, 167);
-}
+    margin-bottom: 20px;
+} */
 
+.hero-banner
+{
+    line-height:4;
+}
 
 .navbar
 {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
 }
 
 .inputText
@@ -35,9 +37,9 @@ body
     border:3px solid #000;
 }
 
-.limited
+/* .limited
 {
     font-weight: 1000;
     font-size: 5.5em;
     line-height: 1.5;
-} */
+}  */

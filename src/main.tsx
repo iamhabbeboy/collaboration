@@ -1,40 +1,36 @@
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router";
-import Cart from './pages/Cart.tsx';
-import SignIn from './pages/SignIn.tsx';
-
-import Profile from './pages/Profile.tsx';
-import Checkout from './pages/Checkout/Checkout.tsx';
-
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.tsx";
+import { createBrowserRouter, RouterProvider } from "react-router";
+import Cart from "./pages/Cart.tsx";
+import SignIn from "./pages/SignIn.tsx";
+import Profile from "./pages/Profile.tsx";
+import Checkout from "./pages/Checkout/Checkout.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: App
+    Component: App,
   },
   {
     path: "/cart",
-    Component: Cart
+    Component: Cart,
   },
   {
     path: "/sign-in",
-    Component: SignIn
+    Component: SignIn,
   },
   {
     path: "/profile",
-    Component: Profile
+    Component: Profile,
   },
   {
     path: "/checkout",
-    Component: Checkout
+    Component: Checkout,
   },
 ]);
 
-createRoot(document.getElementById('root')!).render(
-  <RouterProvider router={router} />
-)
+createRoot(document.getElementById("root")!).render(
+  <RouterProvider router={router} />,
+);
