@@ -2,7 +2,7 @@ import BestBag from "./BestBag";
 import BestSellings from "./BestSellings";
 
 function BestSelling() {
-  const storeData: [] = [
+  const storeData = [
     {
       logo: "./images/ghood.jpg",
       name: '"Nike sea mall"',

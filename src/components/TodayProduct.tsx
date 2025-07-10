@@ -1,7 +1,7 @@
 import TodaysProducts from "./TodaysProducts";
 
 function TodayProduct() {
-  const productsToday: [] = [
+  const productsToday = [
     {
       image: "./images/shoegrey.jpg",
       description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
@@ -70,7 +70,7 @@ function TodayProduct() {
 
   return (
     <section>
-      <div className="flex justify-between grid grid-cols-4 gap-6 mt-5 p-4">
+      <div className="justify-between grid grid-cols-4 gap-6 mt-5 p-4">
         {productsToday.map((ptoday, key) => (
           <TodaysProducts {...ptoday} key={key} />
         ))}

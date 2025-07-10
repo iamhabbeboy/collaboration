@@ -2,7 +2,7 @@ import FlashProduct from "./FlashProduct";
 // import type {IFlashSale} from "../types/IFlashSale"
 
 function FlashProducts() {
-  const fProducts: [] = [
+  const fProducts = [
     {
       image: "./images/greshirt.jpg",
       description: "lorem 20 kdndkdknd jdnkdkdnkd ndndkdmkdn",
