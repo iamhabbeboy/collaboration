@@ -1,8 +1,8 @@
-import type { IToday } from "../types/IToday";
+//import type { IToday } from "../types/IToday";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons";
 
-const TodaysProducts: React.FC<IToday> = ({
+const TodaysProducts: React.FC<any> = ({
   image,
   description,
   ratings,

@@ -1,8 +1,8 @@
-import type { IFlashSale } from "../types/IFlashSale";
+//import type { IFlashSale } from "../types/IFlashSale";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-const FlashProduct: React.FC<IFlashSale> = ({
+const FlashProduct: React.FC<any> = ({
   image,
   description,
   price,
@@ -13,7 +13,7 @@ const FlashProduct: React.FC<IFlashSale> = ({
   return (
     <div className="flex flex-col text-center w-100 rounded-xl shadow-md">
       <div
-        className={`bg-gray-300 w-[100%] h-[300px] h-96 mb-4 w-96 mr-3 rounded-t-xl`}
+        className="bg-gray-300 w-[100%] h-[300px] mb-4 mr-3 rounded-t-xl"
         style={{ backgroundImage: `url('${image}')`, backgroundSize: "cover" }}
       >
         <FontAwesomeIcon
@@ -23,7 +23,7 @@ const FlashProduct: React.FC<IFlashSale> = ({
       </div>
       {/*  */}
 
-      <p className="text-xl text-center font-bold capitalize text-justify px-3">
+      <p className="text-xl font-bold capitalize text-justify px-3">
         {description}
       </p>
 

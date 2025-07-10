@@ -1,13 +1,13 @@
-import type { IStore } from "../types/IStore";
+//import type { IStore } from "../types/IStore";
 
-const BestSellings: React.FC<IStore> = ({
-  logo,
+const BestSellings: React.FC<any> = ({
+  //logo,
   name,
   slogan,
   image1,
   image2,
   image3,
-  price1,
+  price,
   price2,
   price3,
 }) => {
@@ -45,7 +45,7 @@ const BestSellings: React.FC<IStore> = ({
           </div>
           <div className="flex justify-around text-center">
             <div>
-              <h3 className="text-center text-md font-bold">Rp {price1}</h3>
+              <h3 className="text-center text-md font-bold">Rp {price}</h3>
             </div>
             <div>
               <h3 className="text-center text-md font-bold">Rp {price2}</h3>
