@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const CartItem = ({ title, price, image }) => {
+    return (_jsxs("div", { className: "flex items-center justify-between p-2 mb-2 border-gray-300 rounded-xl border", children: [_jsxs("div", { className: "flex items-center gap-4", children: [_jsx("div", { className: `bg-gray-300 w-[50px] h-[50px] rounded-md mr-3`, style: { backgroundImage: `url('${image}')`, backgroundSize: "cover" } }), _jsxs("div", { children: [_jsx("h4", { className: "font-semibold", children: title }), _jsx("p", { className: "text-sm text-gray-500", children: price })] })] }), _jsxs("div", { className: "flex items-center gap-2", children: [_jsx("button", { className: "px-2 bg-gray-200 rounded-full", children: "-" }), _jsx("span", { children: "2" }), _jsx("button", { className: "px-2 bg-gray-200 rounded-full", children: "+" })] }), _jsx("p", { className: "font-semibold", children: "$" }), _jsx("button", { className: "text-red-500 text-sm hover:underline", children: "x" })] }));
+};
+export default CartItem;

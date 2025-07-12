@@ -11,17 +11,17 @@ const TodaysProducts: React.FC<IToday> = ({
   oldPrice,
 }) => {
   return (
-    <div className="border-b border-gray-200 bg-red rounded-3xl mt-4 shadow-md">
+    <div className=" rounded-3xl mt-9 shadow-md">
       <div
-        className={`bg-gray-300 h-[300px] px-8  w-[100%] mx-auto rounded-t-3xl`}
+        className={`bg-gray-300 h-[200px] px-8  w-[90%] mx-auto rounded-t-3xl`}
         style={{ backgroundImage: `url('${image}')`, backgroundSize: "cover" }}
       >
         <FontAwesomeIcon
           icon={faHeart}
-          className="tuser font-2xl relative p-3 w-5 h-5 bg-red-100 font-white-100 rounded-full left-90 mt-5"
+          className="relative p-3  bg-red-100 font-white-100 rounded-full left-55 mt-5"
         />
       </div>
-      <h3 className="text-2xl text-justify px-4 font-md font-semibold capitalize">
+      <h3 className="text-[1.1rem] font-[620] font-900-black  capitalize text-justify px-3">
         {description}
       </h3>
       <div className="flex">
@@ -29,16 +29,16 @@ const TodaysProducts: React.FC<IToday> = ({
           icon={faStar}
           className="font-3xl p-3 mt-3 text-yellow-400"
         />
-        <h3 className="text-2xl text-left py-4 font-semibold">{ratings}</h3>
-        <h4 className="text-2xl px-4 py-4 font-bold text-grey-200">
+        <h3 className="text-xl text-left py-4 font-bold">{ratings}</h3>
+        <h4 className="text-xl px-4 py-4 font-bold text-gray-400">
           {numberSold}k <span className="text-base">sold</span>{" "}
         </h4>
       </div>
       <div className="flex">
-        <h3 className="text-2xl text-center py-2 font-bold ml-3">RP{price}</h3>
-        <h4 className="text-md text-center py-4 font-md ml-3 text-red-700">
-          RP{oldPrice}
-        </h4>
+        <h3 className="text-xl text-capitalize font-bold mb-4 px-3">
+          RP{price}
+        </h3>
+        <h4 className="text-md text-red-400 font-semibold ">RP{oldPrice}</h4>
       </div>
     </div>
   );

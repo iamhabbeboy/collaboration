@@ -1,10 +1,11 @@
 import Category from "./Category"
+import type { ICategory } from "../types/ICategory";
 // import AllCategories  from "./AllCategories";
 
 const Categories = () =>{
 
     // const categories: ICategories[] =[
-      const categories: [] =[
+      const categories: ICategory[] =[
         {
         name: "T-Shirt",
         image: "./images/btshitrt.jpg",

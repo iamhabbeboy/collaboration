@@ -1,0 +1,7 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+const FlashProduct = ({ image, description, price, oldPrice, numberRemain, totalNumber, }) => {
+    return (_jsxs("div", { className: "flex flex-col shadow-md rounded-3xl text-center w-100 mt-9", children: [_jsx("div", { className: `bg-gray-300 w-[90%] h-[200px] mb-4 mr-3 rounded-t-3xl`, style: { backgroundImage: `url('${image}')`, backgroundSize: "cover" }, children: _jsx(FontAwesomeIcon, { icon: faHeart, className: "relative p-3 font-white-100 bg-red-100  rounded-full left-25 top-3" }) }), _jsx("p", { className: "text-[1.1rem] text-center font-[620] font-900-black  capitalize text-justify px-3", children: description }), _jsxs("span", { className: "flex mt-3", children: [_jsxs("h2", { className: "text-xl text-capitalize font-bold mb-4 px-3", children: ["RP", price] }), _jsxs("h3", { className: "text-md text-red-500 font-bold line-through", children: ["Rp", oldPrice] })] }), _jsxs("span", { className: "flex text-grey-300 text-lg", children: [_jsx("h3", { className: "flex text-grey-300 text-2xl font-bold px-1", children: numberRemain }), "/", _jsxs("h3", { className: "flex text-2xl font-bold px-1", children: [totalNumber, " ", _jsx("span", { className: "text-black pl-1", children: " sale" })] })] })] }));
+};
+export default FlashProduct;

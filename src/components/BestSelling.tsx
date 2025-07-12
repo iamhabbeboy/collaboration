@@ -1,10 +1,10 @@
 import BestBag from "./BestBag";
 import BestSellings from "./BestSellings";
+import type { IStore } from "../types/IStore";
 
 function BestSelling() {
-  const storeData: [] = [
+  const storeData: IStore[] = [
     {
-      logo: "./images/ghood.jpg",
       name: '"Nike sea mall"',
       slogan: "just do it bro!",
       image1: "./images/greycap.jpeg",
@@ -15,44 +15,41 @@ function BestSelling() {
       price3: "3030.00",
     },
     {
-      logo: "./images/ghood.jpg",
       name: "Barudka Disaster mall",
       slogan: '"unleash your fashion!"',
       image1: "./images/shirtgrey.jpg",
       image2: "./images/shoegrey.jpg",
       image3: "./images/watchgrey.jpg",
-      price: 400.0,
+      price1: "400.0",
       price2: "3200.00",
       price3: "300.00",
     },
     {
-      logo: "./images/ghood.jpg",
       name: "Galaxy galleria mall",
       slogan: '"be extra ordinary!"',
       image1: "./images/shirtgrey.jpg",
       image2: "./images/shoegrey.jpg",
       image3: "./images/watchgrey.jpg",
-      price: "500.0",
+      price1: "500.0",
       price2: "900.00",
       price3: "300.00",
     },
     {
-      logo: "./images/ghood.jpg",
       name: "Nike sea mall",
       slogan: '"chic, bold, confident!"',
       image1: "./images/shoegrey.jpg",
       image2: "./images/capgrey.jpg",
       image3: "./images/greshirt.jpg",
-      price1: 700.0,
+      price1: "700.0",
       price2: "320.00",
       price3: "456.00",
     },
   ];
   return (
-    <section className="mt-5">
-      <h1 className="text-center text-5xl font-bold py-7">
+    <section className="mt-1">
+      <h2 className="text-center text-3xl font-bold py-7">
         Best Selling Store
-      </h1>
+      </h2>
       <div className="flex flex-row">
         <BestBag />
         <div className="w-[70%]">

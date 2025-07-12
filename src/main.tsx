@@ -1,12 +1,12 @@
-import { StrictMode } from "react";
+// import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.tsx";
+import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Cart from "./pages/Cart.tsx";
-import SignIn from "./pages/SignIn.tsx";
+import Cart from "./pages/Cart";
+import SignIn from "./pages/SignIn";
 // import Checkout from "./pages/Checkout/Checkout.tsx";
-import Profile from "./pages/Profile.tsx";
+import Profile from "./pages/Profile";
 
 const router = createBrowserRouter([
   {

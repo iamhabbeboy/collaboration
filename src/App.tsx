@@ -37,7 +37,7 @@ import Categories from "./components/Categories";
 import FlashSale from "./components/FlashSale";
 import "./App.css";
 // import ForYou from './components/ForYouTop';
-import TodayProduct from "./components/TodayProduct";
+// import TodayProduct from "./components/TodayProduct";
 import TodayCategories from "./components/TodayCategories";
 import BestSelling from "./components/BestSelling";
 import Footer from "./components/Footer";
@@ -67,7 +67,7 @@ function App() {
       <Categories />
       <FlashSale />
       <TodayCategories />
-      <TodayProduct />
+      {/* <TodayProduct /> */}
       <BestSelling />
       <Footer />
     </div>

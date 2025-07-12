@@ -1,7 +1,6 @@
 import type { IStore } from "../types/IStore";
 
 const BestSellings: React.FC<IStore> = ({
-  logo,
   name,
   slogan,
   image1,
@@ -15,8 +14,8 @@ const BestSellings: React.FC<IStore> = ({
     <div className="gap-4 rounded-4xl shadow-md">
       <div className="mx-auto w-[100%] p-4 gap-6">
         <div className="flex flex-col text-center p-5">
-          <h1 className="font-bold text-3xl">{name}</h1>
-          <h3 className="text-gray-400 text-2xl font-semibold">{slogan}</h3>
+          <h1 className="font-bold text-2xl">{name}</h1>
+          <h3 className="text-gray-400 text-xl font-semibold">{slogan}</h3>
         </div>
 
         <div className="">
