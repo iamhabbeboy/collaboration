@@ -1,9 +1,9 @@
 import FlashProduct from "./FlashProduct";
-import type {IFlashSale} from "../types/IFlashSale"
+import type { IFlashSale } from "../types/IFlashSale";
 
 function FlashProducts() {
   const fProducts: IFlashSale[] = [
-
+    {
       image: "./images/greshirt.jpg",
       description: "Soft, breathable 100% cotton tee with a classic fit.",
       price: "2090.0",

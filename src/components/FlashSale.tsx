@@ -1,10 +1,10 @@
+import FlashProducts from "./FlashProducts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBolt,
   faArrowLeft,
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
-import FlashProducts from "./FlashProducts";
 
 function FlashSale() {
   return (
@@ -67,8 +67,7 @@ function FlashSale() {
           </span>
         </div>
       </div>
-      <FlashProducts/>
-
+      <FlashProducts />
     </div>
   );
 }

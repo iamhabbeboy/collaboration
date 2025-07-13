@@ -26,10 +26,10 @@ const router = createBrowserRouter([
     path: "/profile",
     Component: Profile,
   },
-  {
-    path: "/checkout",
-    Component: Checkout,
-  },
+  // {
+  //   path: "/checkout",
+  //   Component: Checkout,
+  // },
 ]);
 
 createRoot(document.getElementById("root")!).render(

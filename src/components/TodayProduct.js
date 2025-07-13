@@ -68,6 +68,6 @@ function TodayProduct() {
             oldPrice: "40000",
         },
     ];
-    return (_jsx("section", { children: _jsx("div", { className: "flex justify-between grid grid-cols-4 gap-6 mt-5 p-4", children: productsToday.map((ptoday, key) => (_createElement(TodaysProducts, { ...ptoday, key: key }))) }) }));
+    return (_jsx("section", { children: _jsx("div", { className: "justify-between grid grid-cols-4 gap-6 mt-5 p-4", children: productsToday.map((ptoday, key) => (_createElement(TodaysProducts, { ...ptoday, key: key }))) }) }));
 }
 export default TodayProduct;

@@ -1,4 +1,5 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+//import type { IToday } from "../types/IToday";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons";
 const TodaysProducts = ({ image, description, ratings, numberSold, price, oldPrice, }) => {
