@@ -4,6 +4,7 @@ import type { IStore } from "../types/IStore";
 
 function BestSelling() {
   const storeData: IStore[] = [
+
     {
       name: '"Nike sea mall"',
       slogan: "just do it bro!",

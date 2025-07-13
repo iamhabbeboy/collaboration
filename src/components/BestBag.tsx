@@ -8,3 +8,4 @@ function BestBag(){
 }
 
 export default BestBag
+

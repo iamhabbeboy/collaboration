@@ -3,6 +3,7 @@ import type { IToday } from "../types/IToday";
 
 function TodayProduct() {
   const productsToday: IToday[] = [
+
     {
       image: "./images/shoegrey.jpg",
       description:
@@ -74,7 +75,7 @@ function TodayProduct() {
 
   return (
     <section>
-      <div className="flex justify-between grid grid-cols-4 gap-6 mt-5 p-4">
+      <div className="justify-between grid grid-cols-4 gap-6 mt-5 p-4">
         {productsToday.map((ptoday, key) => (
           <TodaysProducts {...ptoday} key={key} />
         ))}

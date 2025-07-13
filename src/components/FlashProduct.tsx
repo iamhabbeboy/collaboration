@@ -1,8 +1,8 @@
-  import type { IFlashSale } from "../types/IFlashSale";
+import type { IFlashSale } from "../types/IFlashSale";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-const FlashProduct: React.FC<IFlashSale> = ({
+const FlashProduct: React.FC<any> = ({
   image,
   description,
   price,
@@ -21,7 +21,6 @@ const FlashProduct: React.FC<IFlashSale> = ({
           className="relative p-3 font-white-100 bg-red-100  rounded-full left-25 top-3"
         />
       </div>
-
       <p className="text-[1.1rem] text-center font-[620] font-900-black  capitalize text-justify px-3">
         {description}
       </p>

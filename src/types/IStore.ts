@@ -1,3 +1,4 @@
+
 export interface IStore{
     name:string;
     slogan: string;
@@ -7,5 +8,5 @@ export interface IStore{
     price1:string;
     price2:string;
     price3:string;
-   
 }
+

@@ -5,6 +5,7 @@ import {
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import FlashProducts from "./FlashProducts";
+
 function FlashSale() {
   return (
     <div className=" bg-gray-100 px-7 py-12">
@@ -67,6 +68,7 @@ function FlashSale() {
         </div>
       </div>
       <FlashProducts/>
+
     </div>
   );
 }
