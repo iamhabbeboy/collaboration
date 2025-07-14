@@ -1,37 +1,24 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 
 import Cart from "./pages/Cart";
 import SignIn from "./pages/SignIn";
-// import Checkout from "./pages/Checkout/Checkout.tsx";
 import Profile from "./pages/Profile";
-
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: App,
-  },
-  {
-    path: "/cart",
-    Component: Cart,
-  },
-  {
-    path: "/sign-in",
-    Component: SignIn,
-  },
-  {
-    path: "/profile",
-    Component: Profile,
-  },
-  // {
-  //   path: "/checkout",
-  //   Component: Checkout,
-  // },
-]);
+import React from "react";
+import Checkout from "./pages/Checkout/Checkout";
 
 createRoot(document.getElementById("root")!).render(
-  <RouterProvider router={router} />,
+  <React.StrictMode>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/checkout" element={<Checkout />} />
+      </Routes>
+    </HashRouter>
+  </React.StrictMode>,
 );
