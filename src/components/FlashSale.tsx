@@ -1,10 +1,11 @@
+import FlashProducts from "./FlashProducts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBolt,
   faArrowLeft,
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
-import FlashProdcts from "./FlashProducts";
+
 function FlashSale() {
   return (
     <div className=" bg-gray-100 px-7 py-12">
@@ -16,7 +17,7 @@ function FlashSale() {
                 icon={faBolt}
                 className="bg-gray-900 p-2 rounded-full text-white"
               />
-              <h2 className="ml-3 font-bold text-lg">Flash Sale</h2>
+              <h2 className="ml-3 font-bold text-2xl">Flash Sale</h2>
             </div>
           </div>
 
@@ -66,10 +67,9 @@ function FlashSale() {
           </span>
         </div>
       </div>
-      <FlashProdcts />
+      <FlashProducts />
     </div>
   );
 }
 
 export default FlashSale;
-

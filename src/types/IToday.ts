@@ -2,7 +2,7 @@ export interface  IToday{
     image:string;
     description:string;
     ratings:string;
-    numberSold:BigInteger;
-    price:string;
+    numberSold:string;
+    price:string
     oldPrice?:string;
 }
