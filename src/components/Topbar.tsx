@@ -1,5 +1,6 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faUser} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router";
 
 function Topbar() {
   return (
@@ -10,9 +11,8 @@ function Topbar() {
                 Download Belibeli App
               </h3>
         </div>
-
         <div className='flex align-between gap-5'>
-              <div className="space-x-3 ">
+                <div className="space-x-3 ">
                     <a href="#" className="hover:underline text-gray-400 text-sm  font-bold font-hairline tracking-wide">Mitra BeliBeli</a>
                     <a href="#" className="hover:underline text-gray-400 text-sm  font-bold font-hairline tracking-wide">About BeliBeli</a>
                     <a href="#" className="hover:underline text-gray-400 text-sm  font-bold font-hairline tracking-wide">Promo</a>
@@ -23,9 +23,8 @@ function Topbar() {
                          <a href="http://" className='signin text-md font-bold '>Login</a> 
                 </div>
         </div>
-      
-    </div>
+     </div>
   );
 }
 
-export default Topbar
+export default Topbar;
