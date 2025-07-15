@@ -43,18 +43,18 @@ const BestSellings: React.FC<IStore> = ({
             ></div>
           </div>
           <div className="flex justify-around text-center">
-            <div>
-              <h3 className="text-center text-sm mt-3 font-bold mr-3">
+            <div className="">
+              <h3 className="text-left text-[0.9em] mt-3 font-bold ">
                 <span className="pl-2">Rp</span> {price1}
               </h3>
             </div>
             <div>
-              <h3 className="text-center text-sm mt-3 font-bold">
+              <h3 className="text-left text-[0.9em] mt-3 font-bold">
                 Rp {price2}
               </h3>
             </div>
             <div>
-              <h3 className="text-center text-sm mt-3 font-bold">
+              <h3 className="text-left text-[0.9em] mt-3 font-bold">
                 Rp {price3}
               </h3>
             </div>

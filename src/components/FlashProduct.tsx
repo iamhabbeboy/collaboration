@@ -26,10 +26,10 @@ const FlashProduct: React.FC<any> = ({
       </p>
 
       <span className="flex mt-3">
-        <h2 className="text-md text-capitalize font-bold mb-4 px-3">
+        <h3 className="text-[1.3em] text-capitalize font-bold mb-4 px-3">
           RP{price}
-        </h2>
-        <h3 className="text-sm text-red-500 font-bold line-through">
+        </h3>
+        <h3 className="text-[1em] text-red-900 text-bold mt-1 line-through">
           Rp{oldPrice}
         </h3>
       </span>
