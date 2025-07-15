@@ -10,9 +10,8 @@ function Topbar() {
                 Download Belibeli App
               </h3>
         </div>
-
         <div className='flex align-between gap-5'>
-              <div className="space-x-3 ">
+                <div className="space-x-3 ">
                     <a href="#" className="hover:underline text-gray-400 text-sm  font-bold font-hairline tracking-wide">Mitra BeliBeli</a>
                     <a href="#" className="hover:underline text-gray-400 text-sm  font-bold font-hairline tracking-wide">About BeliBeli</a>
                     <a href="#" className="hover:underline text-gray-400 text-sm  font-bold font-hairline tracking-wide">Promo</a>
@@ -22,10 +21,21 @@ function Topbar() {
                         <a href="http://" className='signin text-md font-bold pr-5'>signUp</a> 
                          <a href="http://" className='signin text-md font-bold '>Login</a> 
                 </div>
+>>>>>>>>> Temporary merge branch 2
         </div>
-      
+        <div className="tbsl">
+          <Link to="cart" className="signin text-xl font-bold pr-5">Cart</Link>
+          <Link to="profile" className="signin text-xl font-bold pr-2">
+            Profile
+          </Link>
+          <Link to="checkout" className="signin text-xl font-bold pr-2">
+            Checkout
+          </Link>
+          <Link to="sign-in" className="signin text-xl font-bold">Login</Link>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Topbar
+export default Topbar;
