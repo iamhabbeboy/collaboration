@@ -48,7 +48,7 @@ function BestSelling() {
   ];
   return (
     <section className="mt-1">
-      <h2 className="text-center text-3xl font-bold py-7">
+      <h2 className="text-center text-2xl font-bold py-5">
         Best Selling Store
       </h2>
       <div className="flex flex-row">

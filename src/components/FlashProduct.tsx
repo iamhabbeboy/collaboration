@@ -11,35 +11,35 @@ const FlashProduct: React.FC<any> = ({
   totalNumber,
 }) => {
   return (
-    <div className="flex flex-col shadow-md rounded-3xl text-center w-100 mt-9">
+    <div className="flex flex-col shadow-md rounded-xl text-center w-100 mt-9">
       <div
-        className={`bg-gray-300 w-[90%] h-[200px] mb-4 mr-3 rounded-t-3xl`}
+        className={`bg-gray-300 w-[90%] h-[150px] mb-4 mr-3 rounded-t-md`}
         style={{ backgroundImage: `url('${image}')`, backgroundSize: "cover" }}
       >
         <FontAwesomeIcon
           icon={faHeart}
-          className="relative p-3 font-white-100 bg-red-100  rounded-full left-25 top-3"
+          className="relative p-2  bg-red-100 rounded-full left-25 top-4 w-3 h-3 font-sm text-sm"
         />
       </div>
-      <p className="text-[1.1rem] text-center font-[620] font-900-black  capitalize text-justify px-3">
+      <p className="text-[0.9rem] text-center font-[620] font-sm capitalize text-justify px-3">
         {description}
       </p>
 
       <span className="flex mt-3">
-        <h2 className="text-xl text-capitalize font-bold mb-4 px-3">
-         RP{price}
+        <h2 className="text-md text-capitalize font-bold mb-4 px-3">
+          RP{price}
         </h2>
-        <h3 className="text-md text-red-500 font-bold line-through">
+        <h3 className="text-sm text-red-500 font-bold line-through">
           Rp{oldPrice}
         </h3>
       </span>
       <span className="flex text-grey-300 text-lg">
-        <h3 className="flex text-grey-300 text-2xl font-bold px-1">
+        <h3 className="flex text-gray-400 text-xl font-bold px-1">
           {numberRemain}
         </h3>
-        /
-        <h3 className="flex text-2xl font-bold px-1">
-          {totalNumber} <span className="text-black pl-1"> sale</span>
+        <span className="text-gray-400">/</span>
+        <h3 className="flex text-gray-400 text-xl font-bold  px-1">
+          {totalNumber} <span className="text-gray-400 pl-1"> sale</span>
         </h3>
       </span>
     </div>

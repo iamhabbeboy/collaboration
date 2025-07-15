@@ -12,30 +12,30 @@ const BestSellings: React.FC<IStore> = ({
 }) => {
   return (
     <div className="gap-4 rounded-4xl shadow-md">
-      <div className="mx-auto w-[100%] p-4 gap-6">
+      <div className="mx-auto w-[100%] p-4 gap-5">
         <div className="flex flex-col text-center p-5">
-          <h1 className="font-bold text-2xl">{name}</h1>
-          <h3 className="text-gray-400 text-xl font-semibold">{slogan}</h3>
+          <h1 className="font-bold text-xl">{name}</h1>
+          <h3 className="text-gray-400 text-sm font-semibold">{slogan}</h3>
         </div>
 
         <div className="">
-          <div className="flex flex-row gap-4 p-5">
+          <div className="flex flex-row gap-2">
             <div
-              className={`h-[130px] w-[30%] px-8  mx-auto rounded-3xl`}
+              className={`h-[100px] w-[100%] px-8  mx-auto rounded-3xl`}
               style={{
                 backgroundImage: `url('${image1}')`,
                 backgroundSize: "cover",
               }}
             ></div>
             <div
-              className={`h-[120px] px-8 w-[30%] mx-auto rounded-3xl`}
+              className={`h-[100px] px-8 w-[100%] mx-auto rounded-3xl`}
               style={{
                 backgroundImage: `url('${image2}')`,
                 backgroundSize: "cover",
               }}
             ></div>
             <div
-              className={`h-[120px] px-8  w-[30%] mx-auto rounded-3xl`}
+              className={`h-[100px] px-8  w-[100%] mx-auto rounded-3xl`}
               style={{
                 backgroundImage: `url('${image3}')`,
                 backgroundSize: "cover",
@@ -44,13 +44,19 @@ const BestSellings: React.FC<IStore> = ({
           </div>
           <div className="flex justify-around text-center">
             <div>
-              <h3 className="text-center text-md font-bold">Rp {price1}</h3>
+              <h3 className="text-center text-sm mt-3 font-bold mr-3">
+                <span className="pl-2">Rp</span> {price1}
+              </h3>
             </div>
             <div>
-              <h3 className="text-center text-md font-bold">Rp {price2}</h3>
+              <h3 className="text-center text-sm mt-3 font-bold">
+                Rp {price2}
+              </h3>
             </div>
             <div>
-              <h3 className="text-center text-md font-bold">Rp {price3}</h3>
+              <h3 className="text-center text-sm mt-3 font-bold">
+                Rp {price3}
+              </h3>
             </div>
           </div>
         </div>

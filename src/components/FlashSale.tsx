@@ -17,31 +17,31 @@ function FlashSale() {
                 icon={faBolt}
                 className="bg-gray-900 p-2 rounded-full text-white"
               />
-              <h2 className="ml-3 font-bold text-2xl">Flash Sale</h2>
+              <h2 className="ml-3 font-bold text-xl">Flash Sale</h2>
             </div>
           </div>
 
           {/* Countdown Timer */}
-          <div className="flex gap-6">
+          <div className="flex gap-2">
             {/* Hours */}
             <div className="flex items-center gap-1">
-              <h3 className="font-extrabold bg-red-400 text-white p-2 rounded-full w-10 text-center">
+              <h3 className="font-bold  pt-1 text-sm bg-red-400 text-white rounded-full w-7 h-7 text-center">
                 08
               </h3>
-              <span className="font-bold text-xl">:</span>
+              <span className="font-bold text-md">:</span>
             </div>
 
             {/* Minutes */}
             <div className="flex items-center gap-1">
-              <h3 className="font-extrabold bg-red-400 text-white p-2 rounded-full w-10 text-center">
+              <h3 className="font-bold pt-1 text-sm bg-red-400 text-white rounded-full w-7 h-7 text-center">
                 17
               </h3>
-              <span className="font-bold text-xl">:</span>
+              <span className="font-bold text-md">:</span>
             </div>
 
             {/* Seconds */}
-            <div className="flex items-center gap-1">
-              <h3 className="font-extrabold bg-red-400 text-white p-2 rounded-full w-10 text-center">
+            <div className="flex items-center">
+              <h3 className="font-bold  pt-1 text-sm bg-red-400 text-white rounded-full w-7 h-7 text-center">
                 56
               </h3>
             </div>
@@ -49,7 +49,7 @@ function FlashSale() {
         </div>
 
         <div className="arrows">
-          <span className="bg-white border-1 text-black mr-3 p-2 rounded shadow">
+          <span className="bg-white  text-black mr-3 p-1 rounded-md shadow">
             <a href="http://">
               <FontAwesomeIcon
                 icon={faArrowLeft}
@@ -57,7 +57,7 @@ function FlashSale() {
               />
             </a>
           </span>
-          <span className="bg-black text-white p-2 rounded-md">
+          <span className="bg-black text-white p-1 rounded-md">
             <a href="http://">
               <FontAwesomeIcon
                 icon={faArrowRight}

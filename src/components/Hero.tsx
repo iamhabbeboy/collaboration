@@ -1,42 +1,3 @@
-// import type { IHero } from "../types/IHero";
-
-// const Hero: React.FC<IHero> = ({ heroTitle, heroMain, heroSlogan }) => {
-//   console.log("Received props:", { heroTitle, heroMain, heroSlogan });
-
-// function Hero(){
-//   return (
-//     <div className="my-7">
-//       {/* <!-- 2. Hero Banner Section --> */}
-//       <section className="hero-banner  flex justify-between flex-col md:flex-row items-center">
-//         <div className="antialiased w-1/2 flex align-center justify-center flex-col">
-//           <h3 className="text-2xl font-semibold text-gray-400 pt-12">
-//             #Big Fashion Sale
-
-//           </h3>
-//           <h2 className="limited text-[4.2em]/27 mt-3 fonts-serif font-bold">
-//             Limited Time Offer! <br />
-//             Up to <span className="italic">50%</span> OFF!
-
-//           </h2>
-//           <p className="text-2xl font-bold text-gray-500 mt-5">
-//             Redefine Your Everyday Style
-//           </p>
-//         </div>
-
-//         <div className="hero-images w-1/2 bg-blue-500">
-//           <img
-//             src="/images/333.jpg"
-//             className="h-120 object-fill w-full object-cover object-center"
-//             alt="banner"
-//           />
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default Hero;
-
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -55,11 +16,11 @@ const Hero = () => {
         loop={true}
       >
         <SwiperSlide>
-          <div className="my-7 w-full">
+          <div className="my-7 w-full h-[50%]">
             {/* <!-- 2. Hero Banner Section --> */}
-            <section className="hero-banner  flex justify-between flex-col md:flex-row items-center w-full h-full">
+            <section className="hero-banner flex justify-between flex-col md:flex-row items-center w-[100%] h-[50%]">
               <div className="antialiased w-1/2 flex align-center justify-center` flex-col">
-                <h3 className="text-2xl font-semibold text-gray-400 pt-12 text-center">
+                <h3 className="text-xl font-semibold text-gray-400 pt-12 text-center">
                   #Big Fashion Sale
                 </h3>
                 <h2 className="limited text-[4.2em]/27 mt-3 fonts-serif font-bold text-center">
@@ -82,17 +43,17 @@ const Hero = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="my-7 w-full">
+          <div className="my-7 w-full h-[50%]">
             {/* <!-- 2. Hero Banner Section --> */}
             <section className="hero-banner  flex justify-between flex-col md:flex-row items-center w-full h-full">
               <div className="antialiased w-1/2 flex align-center justify-center flex-col">
-                <h3 className="text-2xl font-semibold text-gray-400 pt-12">
+                <h3 className="text-xl font-semibold text-gray-400 pt-12">
                   #Big Fashion Sale
                 </h3>
-                <h2 className="limited text-[4.2em]/27 mt-3 fonts-serif font-bold ">
-                  Limited Time Offer! <br />
+                <h3 className="limited text-[4.2em]/27 mt-3 fonts-serif font-bold ">
+                  Limited Time Offer! <br/>
                   Up to <span className="italic">50%</span> OFF!
-                </h2>
+                </h3>
                 <p className="text-2xl font-bold text-gray-500 mt-5">
                   Redefine Your Everyday Style
                 </p>
@@ -110,11 +71,11 @@ const Hero = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="my-7 w-full">
+          <div className="my-7 w-full h-[50%]">
             {/* <!-- 2. Hero Banner Section --> */}
             <section className="hero-banner  flex justify-between flex-col md:flex-row items-center w-full h-full">
               <div className="antialiased w-1/2 flex align-center justify-center flex-col text-center">
-                <h3 className="text-2xl font-semibold text-gray-400 pt-12">
+                <h3 className="text-xl font-semibold text-gray-400 pt-12">
                   #Big Fashion Sale
                 </h3>
                 <h2 className="limited text-[4.2em]/27 mt-3 fonts-serif font-bold text-center">
