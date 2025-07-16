@@ -3,35 +3,35 @@ function TodayCategories() {
   return (
     <div className="my-25">
       <div className="flex justify-between">
-        <h2 className="ml-3 font-bold text-2xl">Todays For Your!</h2>
+        <h2 className="ml-3 font-bold text-xl">Todays For Your!</h2>
         <span>
           <a
             href="http://"
-            className="border-1 p-4 rounded-lg w-6 h-5 mr-5 bg-black text-white font-bold text-lg"
+            className="border-1 p-3 rounded-md w-6 h-3 mr-5 bg-black text-white font-semibold text-md"
           >
             Best Seller
           </a>
           <a
             href="http://"
-            className="border-1 p-4 rounded-lg w-4 h-5 mr-5 font-bold text-lg font-bold text-lg"
+            className="border-1 p-3 rounded-md w-6 h-3 mr-5 text-black font-bold text-md"
           >
             Keep Stylish
           </a>
           <a
             href="http://"
-            className="border-1 p-4 rounded-lg w-4 h-5 mr-5 font-bold text-lg"
+            className="border-1 p-3 rounded-md w-6 h-3 mr-5 bg- text-black font-bold text-md"
           >
             Special Discount
           </a>
           <a
             href="http://"
-            className="border-1 p-4 rounded-lg w-4 h-5 mr-5 font-bold text-lg"
+            className="border-1 p-3 rounded-md w-6 h-3 mr-5 text-black font-bold text-md"
           >
             Official Store
           </a>
           <a
             href="http://"
-            className="border-1 p-4 rounded-lg w-4 h-5 mr-5 font-bold text-lg"
+            className="border-1 p-3 rounded-md w-6 h-3 mr-5  text-black font-bold text-md"
           >
             Coveted Product
           </a>
